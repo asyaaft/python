@@ -53,6 +53,7 @@ main_str = """
 Под ним сидел, и кот учёный
 Свои мне сказки говорил.
 """
+
 letter_counts = count_letters(main_str)
 letter_frequencies = calculate_frequency(letter_counts)
 
