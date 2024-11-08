@@ -1,7 +1,7 @@
 # TODO Напишите функцию для поиска индекса товара
-def find_item_index(list, item):
-    for index, list in enumerate(list):
-        if list == item:
+def find_item_index(item_list, find_item):
+    for index, item_list in enumerate(item_list):
+        if item_list == find_item:
             return index
     return None
 
