@@ -10,4 +10,4 @@ def find_common_participants(participants_first_group, participants_second_group
 participants_first_group = "Иванов|Петров|Сидоров"
 participants_second_group = "Петров|Сидоров|Смирнов"
 common_participants = find_common_participants(participants_first_group, participants_second_group)
-print(common_participants)
+print(find_common_participants(participants_first_group, participants_second_group), common_participants)
