@@ -17,13 +17,14 @@ def csv_to_json(csv_file, delimiter=",", row_delimiter="\n"):
     return json_string
 
 
-csv_file = "input.csv"
-json_data = csv_to_json(csv_file)
-print(json_data)
-
 if __name__ == '__main__':
     # Нужно для проверки
+    csv_file = 'input.csv'
     csv_to_json(csv_file, delimiter=",", row_delimiter="\n")
     with open(OUTPUT_FILENAME) as output_json:
         for line in output_json:
             print(line, end="")
+
+csv_file = "input.csv"
+json_data = csv_to_json(csv_file)
+print(json_data)
