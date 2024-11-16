@@ -17,7 +17,7 @@ def total(json_file):
     return round(total_score, 3)
 
 
-json_file = 'input.json'  # Замените 'data.json' на ваш файл
+json_file = 'input.json' 
 result = total(json_file)
 
 if result is not None:
